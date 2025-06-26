@@ -9,8 +9,16 @@
       "category": "Riding Gear",
       "image": "https://images.unsplash.com/photo-valor-boots.jpg",
       "variants": [
-        { "id": 101, "size": "7", "color": "Black" },
-        { "id": 102, "size": "8", "color": "Brown" }
+        {
+          "id": 101,
+          "size": "7",
+          "color": "Black"
+        },
+        {
+          "id": 102,
+          "size": "8",
+          "color": "Brown"
+        }
       ],
       "status": "active",
       "visibility": "visible"
@@ -26,21 +34,567 @@
       "variants": [],
       "status": "inactive",
       "visibility": "hidden"
+    },
+    {
+      "id": 3,
+      "name": "Product 3",
+      "sku": "SKU-003",
+      "price": 11515,
+      "stock": 76,
+      "category": "Jackets",
+      "image": "https://source.unsplash.com/random/400x400?sig=3&motorcycle",
+      "variants": [
+        {
+          "id": 30,
+          "size": "6",
+          "color": "Red"
+        },
+        {
+          "id": 31,
+          "size": "7",
+          "color": "Black"
+        }
+      ],
+      "status": "active",
+      "visibility": "hidden"
+    },
+    {
+      "id": 4,
+      "name": "Product 4",
+      "sku": "SKU-004",
+      "price": 14278,
+      "stock": 44,
+      "category": "Gloves",
+      "image": "https://source.unsplash.com/random/400x400?sig=4&motorcycle",
+      "variants": [
+        {
+          "id": 40,
+          "size": "6",
+          "color": "Red"
+        }
+      ],
+      "status": "inactive",
+      "visibility": "visible"
+    },
+    {
+      "id": 5,
+      "name": "Product 5",
+      "sku": "SKU-005",
+      "price": 4010,
+      "stock": 67,
+      "category": "Riding Gear",
+      "image": "https://source.unsplash.com/random/400x400?sig=5&motorcycle",
+      "variants": [
+        {
+          "id": 50,
+          "size": "6",
+          "color": "Red"
+        }
+      ],
+      "status": "active",
+      "visibility": "visible"
+    },
+    {
+      "id": 6,
+      "name": "Product 6",
+      "sku": "SKU-006",
+      "price": 4234,
+      "stock": 55,
+      "category": "Riding Gear",
+      "image": "https://source.unsplash.com/random/400x400?sig=6&motorcycle",
+      "variants": [
+        {
+          "id": 60,
+          "size": "6",
+          "color": "Brown"
+        }
+      ],
+      "status": "active",
+      "visibility": "visible"
+    },
+    {
+      "id": 7,
+      "name": "Product 7",
+      "sku": "SKU-007",
+      "price": 10511,
+      "stock": 32,
+      "category": "Gloves",
+      "image": "https://source.unsplash.com/random/400x400?sig=7&motorcycle",
+      "variants": [
+        {
+          "id": 70,
+          "size": "6",
+          "color": "Red"
+        },
+        {
+          "id": 71,
+          "size": "7",
+          "color": "Brown"
+        }
+      ],
+      "status": "inactive",
+      "visibility": "hidden"
+    },
+    {
+      "id": 8,
+      "name": "Product 8",
+      "sku": "SKU-008",
+      "price": 12956,
+      "stock": 34,
+      "category": "Jackets",
+      "image": "https://source.unsplash.com/random/400x400?sig=8&motorcycle",
+      "variants": [
+        {
+          "id": 80,
+          "size": "6",
+          "color": "Black"
+        }
+      ],
+      "status": "inactive",
+      "visibility": "hidden"
+    },
+    {
+      "id": 9,
+      "name": "Product 9",
+      "sku": "SKU-009",
+      "price": 4540,
+      "stock": 91,
+      "category": "Gloves",
+      "image": "https://source.unsplash.com/random/400x400?sig=9&motorcycle",
+      "variants": [
+        {
+          "id": 90,
+          "size": "6",
+          "color": "Brown"
+        },
+        {
+          "id": 91,
+          "size": "7",
+          "color": "Red"
+        }
+      ],
+      "status": "active",
+      "visibility": "visible"
+    },
+    {
+      "id": 10,
+      "name": "Product 10",
+      "sku": "SKU-010",
+      "price": 6104,
+      "stock": 38,
+      "category": "Gloves",
+      "image": "https://source.unsplash.com/random/400x400?sig=10&motorcycle",
+      "variants": [
+        {
+          "id": 100,
+          "size": "6",
+          "color": "Brown"
+        }
+      ],
+      "status": "active",
+      "visibility": "visible"
+    },
+    {
+      "id": 11,
+      "name": "Product 11",
+      "sku": "SKU-011",
+      "price": 6615,
+      "stock": 49,
+      "category": "Jackets",
+      "image": "https://source.unsplash.com/random/400x400?sig=11&motorcycle",
+      "variants": [
+        {
+          "id": 110,
+          "size": "6",
+          "color": "Red"
+        },
+        {
+          "id": 111,
+          "size": "7",
+          "color": "Brown"
+        }
+      ],
+      "status": "inactive",
+      "visibility": "hidden"
+    },
+    {
+      "id": 12,
+      "name": "Product 12",
+      "sku": "SKU-012",
+      "price": 4959,
+      "stock": 42,
+      "category": "Gloves",
+      "image": "https://source.unsplash.com/random/400x400?sig=12&motorcycle",
+      "variants": [
+        {
+          "id": 120,
+          "size": "6",
+          "color": "Black"
+        }
+      ],
+      "status": "active",
+      "visibility": "hidden"
+    },
+    {
+      "id": 13,
+      "name": "Product 13",
+      "sku": "SKU-013",
+      "price": 13257,
+      "stock": 34,
+      "category": "Riding Gear",
+      "image": "https://source.unsplash.com/random/400x400?sig=13&motorcycle",
+      "variants": [
+        {
+          "id": 130,
+          "size": "6",
+          "color": "Brown"
+        },
+        {
+          "id": 131,
+          "size": "7",
+          "color": "Black"
+        },
+        {
+          "id": 132,
+          "size": "8",
+          "color": "Red"
+        }
+      ],
+      "status": "active",
+      "visibility": "hidden"
+    },
+    {
+      "id": 14,
+      "name": "Product 14",
+      "sku": "SKU-014",
+      "price": 6199,
+      "stock": 33,
+      "category": "Jackets",
+      "image": "https://source.unsplash.com/random/400x400?sig=14&motorcycle",
+      "variants": [
+        {
+          "id": 140,
+          "size": "6",
+          "color": "Red"
+        },
+        {
+          "id": 141,
+          "size": "7",
+          "color": "Red"
+        }
+      ],
+      "status": "active",
+      "visibility": "visible"
+    },
+    {
+      "id": 15,
+      "name": "Product 15",
+      "sku": "SKU-015",
+      "price": 14599,
+      "stock": 12,
+      "category": "Riding Gear",
+      "image": "https://source.unsplash.com/random/400x400?sig=15&motorcycle",
+      "variants": [
+        {
+          "id": 150,
+          "size": "6",
+          "color": "Red"
+        },
+        {
+          "id": 151,
+          "size": "7",
+          "color": "Brown"
+        }
+      ],
+      "status": "inactive",
+      "visibility": "visible"
     }
   ],
   "orders": [
     {
-      "id": 1,
-      "order_number": "ORD-001",
+      "id": 2,
+      "order_number": "ORD-102",
+      "dealer_id": 1,
+      "status": "delivered",
+      "total": 15220,
+      "items": [
+        {
+          "product_id": 14,
+          "quantity": 1
+        },
+        {
+          "product_id": 5,
+          "quantity": 3
+        }
+      ],
+      "notes": "Standard delivery",
+      "created_at": "2024-07-03T10:00:00"
+    },
+    {
+      "id": 3,
+      "order_number": "ORD-103",
       "dealer_id": 1,
       "status": "processing",
-      "total": 14998,
+      "total": 15625,
       "items": [
-        { "product_id": 1, "quantity": 1 },
-        { "product_id": 2, "quantity": 1 }
+        {
+          "product_id": 14,
+          "quantity": 3
+        },
+        {
+          "product_id": 3,
+          "quantity": 3
+        }
+      ],
+      "notes": "Standard delivery",
+      "created_at": "2024-07-04T10:00:00"
+    },
+    {
+      "id": 4,
+      "order_number": "ORD-104",
+      "dealer_id": 1,
+      "status": "delivered",
+      "total": 9676,
+      "items": [
+        {
+          "product_id": 4,
+          "quantity": 3
+        },
+        {
+          "product_id": 2,
+          "quantity": 3
+        }
+      ],
+      "notes": "Standard delivery",
+      "created_at": "2024-07-05T10:00:00"
+    },
+    {
+      "id": 5,
+      "order_number": "ORD-105",
+      "dealer_id": 1,
+      "status": "processing",
+      "total": 12047,
+      "items": [
+        {
+          "product_id": 1,
+          "quantity": 2
+        },
+        {
+          "product_id": 2,
+          "quantity": 3
+        }
       ],
       "notes": "Urgent order",
-      "created_at": "2024-07-01T10:00:00Z"
+      "created_at": "2024-07-06T10:00:00"
+    },
+    {
+      "id": 6,
+      "order_number": "ORD-106",
+      "dealer_id": 1,
+      "status": "delivered",
+      "total": 7793,
+      "items": [
+        {
+          "product_id": 15,
+          "quantity": 2
+        },
+        {
+          "product_id": 4,
+          "quantity": 3
+        }
+      ],
+      "notes": "Handle with care",
+      "created_at": "2024-07-07T10:00:00"
+    },
+    {
+      "id": 7,
+      "order_number": "ORD-107",
+      "dealer_id": 1,
+      "status": "delivered",
+      "total": 18743,
+      "items": [
+        {
+          "product_id": 11,
+          "quantity": 3
+        },
+        {
+          "product_id": 9,
+          "quantity": 3
+        }
+      ],
+      "notes": "Urgent order",
+      "created_at": "2024-07-08T10:00:00"
+    },
+    {
+      "id": 8,
+      "order_number": "ORD-108",
+      "dealer_id": 1,
+      "status": "delivered",
+      "total": 19598,
+      "items": [
+        {
+          "product_id": 14,
+          "quantity": 2
+        },
+        {
+          "product_id": 4,
+          "quantity": 2
+        }
+      ],
+      "notes": "Standard delivery",
+      "created_at": "2024-07-09T10:00:00"
+    },
+    {
+      "id": 9,
+      "order_number": "ORD-109",
+      "dealer_id": 1,
+      "status": "delivered",
+      "total": 6401,
+      "items": [
+        {
+          "product_id": 14,
+          "quantity": 2
+        },
+        {
+          "product_id": 7,
+          "quantity": 3
+        }
+      ],
+      "notes": "Handle with care",
+      "created_at": "2024-07-10T10:00:00"
+    },
+    {
+      "id": 10,
+      "order_number": "ORD-110",
+      "dealer_id": 1,
+      "status": "processing",
+      "total": 15695,
+      "items": [
+        {
+          "product_id": 12,
+          "quantity": 1
+        },
+        {
+          "product_id": 3,
+          "quantity": 2
+        }
+      ],
+      "notes": "Urgent order",
+      "created_at": "2024-07-11T10:00:00"
+    },
+    {
+      "id": 11,
+      "order_number": "ORD-111",
+      "dealer_id": 1,
+      "status": "shipped",
+      "total": 7123,
+      "items": [
+        {
+          "product_id": 8,
+          "quantity": 1
+        },
+        {
+          "product_id": 10,
+          "quantity": 1
+        }
+      ],
+      "notes": "Urgent order",
+      "created_at": "2024-07-12T10:00:00"
+    },
+    {
+      "id": 12,
+      "order_number": "ORD-112",
+      "dealer_id": 1,
+      "status": "delivered",
+      "total": 8781,
+      "items": [
+        {
+          "product_id": 8,
+          "quantity": 2
+        },
+        {
+          "product_id": 15,
+          "quantity": 1
+        }
+      ],
+      "notes": "Handle with care",
+      "created_at": "2024-07-13T10:00:00"
+    },
+    {
+      "id": 13,
+      "order_number": "ORD-113",
+      "dealer_id": 1,
+      "status": "delivered",
+      "total": 15002,
+      "items": [
+        {
+          "product_id": 1,
+          "quantity": 2
+        },
+        {
+          "product_id": 4,
+          "quantity": 2
+        }
+      ],
+      "notes": "Urgent order",
+      "created_at": "2024-07-14T10:00:00"
+    },
+    {
+      "id": 14,
+      "order_number": "ORD-114",
+      "dealer_id": 1,
+      "status": "delivered",
+      "total": 9219,
+      "items": [
+        {
+          "product_id": 1,
+          "quantity": 2
+        },
+        {
+          "product_id": 3,
+          "quantity": 3
+        }
+      ],
+      "notes": "Handle with care",
+      "created_at": "2024-07-15T10:00:00"
+    },
+    {
+      "id": 15,
+      "order_number": "ORD-115",
+      "dealer_id": 1,
+      "status": "shipped",
+      "total": 10396,
+      "items": [
+        {
+          "product_id": 7,
+          "quantity": 2
+        },
+        {
+          "product_id": 5,
+          "quantity": 2
+        }
+      ],
+      "notes": "Urgent order",
+      "created_at": "2024-07-16T10:00:00"
+    },
+    {
+      "id": 16,
+      "order_number": "ORD-116",
+      "dealer_id": 1,
+      "status": "processing",
+      "total": 20220,
+      "items": [
+        {
+          "product_id": 13,
+          "quantity": 3
+        },
+        {
+          "product_id": 3,
+          "quantity": 3
+        }
+      ],
+      "notes": "Urgent order",
+      "created_at": "2024-07-17T10:00:00"
     }
   ],
   "dealers": [
@@ -57,6 +611,34 @@
         "pincode": "403001"
       },
       "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "Dealer 2",
+      "email": "dealer2@example.com",
+      "phone": "+91-9826966796",
+      "gst": "27AABCU0002Z2",
+      "address": {
+        "line1": "50 Main Road",
+        "city": "Mumbai",
+        "state": "Goa",
+        "pincode": "497358"
+      },
+      "status": "inactive"
+    },
+    {
+      "id": 3,
+      "name": "Dealer 3",
+      "email": "dealer3@example.com",
+      "phone": "+91-9865307663",
+      "gst": "27AABCU0003Z3",
+      "address": {
+        "line1": "80 Main Road",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pincode": "408491"
+      },
+      "status": "inactive"
     }
   ]
 }
