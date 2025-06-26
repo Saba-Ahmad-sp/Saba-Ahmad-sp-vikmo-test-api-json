@@ -1,0 +1,62 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "VALOR BOOTS",
+      "sku": "VALOR-001",
+      "price": 9999,
+      "stock": 24,
+      "category": "Riding Gear",
+      "image": "https://images.unsplash.com/photo-valor-boots.jpg",
+      "variants": [
+        { "id": 101, "size": "7", "color": "Black" },
+        { "id": 102, "size": "8", "color": "Brown" }
+      ],
+      "status": "active",
+      "visibility": "visible"
+    },
+    {
+      "id": 2,
+      "name": "SHIELD HELMET",
+      "sku": "SHIELD-002",
+      "price": 4999,
+      "stock": 15,
+      "category": "Helmets",
+      "image": "https://images.unsplash.com/photo-helmet.jpg",
+      "variants": [],
+      "status": "inactive",
+      "visibility": "hidden"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "order_number": "ORD-001",
+      "dealer_id": 1,
+      "status": "processing",
+      "total": 14998,
+      "items": [
+        { "product_id": 1, "quantity": 1 },
+        { "product_id": 2, "quantity": 1 }
+      ],
+      "notes": "Urgent order",
+      "created_at": "2024-07-01T10:00:00Z"
+    }
+  ],
+  "dealers": [
+    {
+      "id": 1,
+      "name": "Classic Riders Goa",
+      "email": "dealer@classicriders.com",
+      "phone": "+91-9876543210",
+      "gst": "29ABCDE1234F1Z5",
+      "address": {
+        "line1": "Shop 12, Market Road",
+        "city": "Panaji",
+        "state": "Goa",
+        "pincode": "403001"
+      },
+      "status": "active"
+    }
+  ]
+}
