@@ -1,644 +1,1423 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "p1",
       "name": "VALOR BOOTS",
-      "sku": "VALOR-001",
-      "price": 9999,
-      "stock": 24,
-      "category": "Riding Gear",
-      "image": "https://images.unsplash.com/photo-valor-boots.jpg",
-      "variants": [
+      "slug": "1",
+      "price": "10,000-15,000/-",
+      "model": "23KL1",
+      "quantity": 23,
+      "image": "https://media.istockphoto.com/id/474862754/photo/yellow-boots.jpg?s=612x612&w=0&k=20&c=wlaxHn6a5BOjOPGi92VypLutLfumhp6Woru6P_gFAww=",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt commodo odio ut tincidunt. Vestibulum sodales condimentum justo, non sagittis elit congue aliquam. Nullam et ante et nisi aliquam vestibulum mollis in sapien. Nunc interdum erat ut metus molestie, sed lacinia mauris porttitor.",
+      "attributes": {
+        "Item Type": "Riding Boots",
+        "SKU": "BOT-256",
+        "Quantity Available": 89,
+        "Created User": "User",
+        "Colors Available": 2,
+        "Quantity Sold": 12345,
+        "Discount Available": "20%",
+        "Last Shipment": "20/July/24",
+        "Country Of Origin": "Vietnam",
+        "Warranty Available": "Yes",
+        "Warranty Till": "05/July/25"
+      },
+      "variantTable": [
         {
-          "id": 101,
-          "size": "7",
-          "color": "Black"
+          "variant": "42-Black",
+          "qty": 5,
+          "partNo": 2456,
+          "price": "₹ 15,000/-"
         },
         {
-          "id": 102,
-          "size": "8",
-          "color": "Brown"
-        }
-      ],
-      "status": "active",
-      "visibility": "visible"
-    },
-    {
-      "id": 2,
-      "name": "SHIELD HELMET",
-      "sku": "SHIELD-002",
-      "price": 4999,
-      "stock": 15,
-      "category": "Helmets",
-      "image": "https://images.unsplash.com/photo-helmet.jpg",
-      "variants": [],
-      "status": "inactive",
-      "visibility": "hidden"
-    },
-    {
-      "id": 3,
-      "name": "Product 3",
-      "sku": "SKU-003",
-      "price": 11515,
-      "stock": 76,
-      "category": "Jackets",
-      "image": "https://source.unsplash.com/random/400x400?sig=3&motorcycle",
-      "variants": [
-        {
-          "id": 30,
-          "size": "6",
-          "color": "Red"
+          "variant": "41-Brown",
+          "qty": 3,
+          "partNo": 5414,
+          "price": "₹ 15,000/-"
         },
         {
-          "id": 31,
-          "size": "7",
-          "color": "Black"
-        }
-      ],
-      "status": "active",
-      "visibility": "hidden"
-    },
-    {
-      "id": 4,
-      "name": "Product 4",
-      "sku": "SKU-004",
-      "price": 14278,
-      "stock": 44,
-      "category": "Gloves",
-      "image": "https://source.unsplash.com/random/400x400?sig=4&motorcycle",
-      "variants": [
-        {
-          "id": 40,
-          "size": "6",
-          "color": "Red"
-        }
-      ],
-      "status": "inactive",
-      "visibility": "visible"
-    },
-    {
-      "id": 5,
-      "name": "Product 5",
-      "sku": "SKU-005",
-      "price": 4010,
-      "stock": 67,
-      "category": "Riding Gear",
-      "image": "https://source.unsplash.com/random/400x400?sig=5&motorcycle",
-      "variants": [
-        {
-          "id": 50,
-          "size": "6",
-          "color": "Red"
-        }
-      ],
-      "status": "active",
-      "visibility": "visible"
-    },
-    {
-      "id": 6,
-      "name": "Product 6",
-      "sku": "SKU-006",
-      "price": 4234,
-      "stock": 55,
-      "category": "Riding Gear",
-      "image": "https://source.unsplash.com/random/400x400?sig=6&motorcycle",
-      "variants": [
-        {
-          "id": 60,
-          "size": "6",
-          "color": "Brown"
-        }
-      ],
-      "status": "active",
-      "visibility": "visible"
-    },
-    {
-      "id": 7,
-      "name": "Product 7",
-      "sku": "SKU-007",
-      "price": 10511,
-      "stock": 32,
-      "category": "Gloves",
-      "image": "https://source.unsplash.com/random/400x400?sig=7&motorcycle",
-      "variants": [
-        {
-          "id": 70,
-          "size": "6",
-          "color": "Red"
+          "variant": "43-Black",
+          "qty": 8,
+          "partNo": 14786,
+          "price": "₹ 15,000/-"
         },
         {
-          "id": 71,
-          "size": "7",
-          "color": "Brown"
+          "variant": "40-Brown",
+          "qty": 8,
+          "partNo": 155,
+          "price": "₹ 15,000/-"
         }
-      ],
-      "status": "inactive",
-      "visibility": "hidden"
+      ]
     },
     {
-      "id": 8,
-      "name": "Product 8",
-      "sku": "SKU-008",
-      "price": 12956,
-      "stock": 34,
-      "category": "Jackets",
-      "image": "https://source.unsplash.com/random/400x400?sig=8&motorcycle",
-      "variants": [
+      "id": "p2",
+      "name": "URBAN SNEAKERS",
+      "slug": "2",
+      "price": "10,100-15,100/-",
+      "model": "23KL2",
+      "quantity": 24,
+      "image": "https://media.istockphoto.com/id/474862754/photo/yellow-boots.jpg?s=612x612&w=0&k=20&c=wlaxHn6a5BOjOPGi92VypLutLfumhp6Woru6P_gFAww=",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt commodo odio ut tincidunt. Vestibulum sodales condimentum justo, non sagittis elit congue aliquam. Nullam et ante et nisi aliquam vestibulum mollis in sapien. Nunc interdum erat ut metus molestie, sed lacinia mauris porttitor.",
+      "attributes": {
+        "Item Type": "Casual Sneakers",
+        "SKU": "SNK-157",
+        "Quantity Available": 90,
+        "Created User": "Admin",
+        "Colors Available": 3,
+        "Quantity Sold": 12355,
+        "Discount Available": "15%",
+        "Last Shipment": "22/July/24",
+        "Country Of Origin": "India",
+        "Warranty Available": "Yes",
+        "Warranty Till": "10/August/25"
+      },
+      "variantTable": [
         {
-          "id": 80,
-          "size": "6",
-          "color": "Black"
-        }
-      ],
-      "status": "inactive",
-      "visibility": "hidden"
-    },
-    {
-      "id": 9,
-      "name": "Product 9",
-      "sku": "SKU-009",
-      "price": 4540,
-      "stock": 91,
-      "category": "Gloves",
-      "image": "https://source.unsplash.com/random/400x400?sig=9&motorcycle",
-      "variants": [
-        {
-          "id": 90,
-          "size": "6",
-          "color": "Brown"
+          "variant": "42-White",
+          "qty": 6,
+          "partNo": 2457,
+          "price": "₹ 12,500/-"
         },
         {
-          "id": 91,
-          "size": "7",
-          "color": "Red"
-        }
-      ],
-      "status": "active",
-      "visibility": "visible"
-    },
-    {
-      "id": 10,
-      "name": "Product 10",
-      "sku": "SKU-010",
-      "price": 6104,
-      "stock": 38,
-      "category": "Gloves",
-      "image": "https://source.unsplash.com/random/400x400?sig=10&motorcycle",
-      "variants": [
-        {
-          "id": 100,
-          "size": "6",
-          "color": "Brown"
-        }
-      ],
-      "status": "active",
-      "visibility": "visible"
-    },
-    {
-      "id": 11,
-      "name": "Product 11",
-      "sku": "SKU-011",
-      "price": 6615,
-      "stock": 49,
-      "category": "Jackets",
-      "image": "https://source.unsplash.com/random/400x400?sig=11&motorcycle",
-      "variants": [
-        {
-          "id": 110,
-          "size": "6",
-          "color": "Red"
+          "variant": "41-Blue",
+          "qty": 4,
+          "partNo": 5415,
+          "price": "₹ 12,500/-"
         },
         {
-          "id": 111,
-          "size": "7",
-          "color": "Brown"
-        }
-      ],
-      "status": "inactive",
-      "visibility": "hidden"
-    },
-    {
-      "id": 12,
-      "name": "Product 12",
-      "sku": "SKU-012",
-      "price": 4959,
-      "stock": 42,
-      "category": "Gloves",
-      "image": "https://source.unsplash.com/random/400x400?sig=12&motorcycle",
-      "variants": [
-        {
-          "id": 120,
-          "size": "6",
-          "color": "Black"
-        }
-      ],
-      "status": "active",
-      "visibility": "hidden"
-    },
-    {
-      "id": 13,
-      "name": "Product 13",
-      "sku": "SKU-013",
-      "price": 13257,
-      "stock": 34,
-      "category": "Riding Gear",
-      "image": "https://source.unsplash.com/random/400x400?sig=13&motorcycle",
-      "variants": [
-        {
-          "id": 130,
-          "size": "6",
-          "color": "Brown"
+          "variant": "43-White",
+          "qty": 9,
+          "partNo": 14787,
+          "price": "₹ 12,500/-"
         },
         {
-          "id": 131,
-          "size": "7",
-          "color": "Black"
-        },
-        {
-          "id": 132,
-          "size": "8",
-          "color": "Red"
+          "variant": "40-Blue",
+          "qty": 9,
+          "partNo": 156,
+          "price": "₹ 12,500/-"
         }
-      ],
-      "status": "active",
-      "visibility": "hidden"
+      ]
     },
     {
-      "id": 14,
-      "name": "Product 14",
-      "sku": "SKU-014",
-      "price": 6199,
-      "stock": 33,
-      "category": "Jackets",
-      "image": "https://source.unsplash.com/random/400x400?sig=14&motorcycle",
-      "variants": [
+      "id": "p3",
+      "name": "ELITE RUNNERS",
+      "slug": "3",
+      "price": "10,200-15,200/-",
+      "model": "23KL3",
+      "quantity": 25,
+      "image": "https://media.istockphoto.com/id/474862754/photo/yellow-boots.jpg?s=612x612&w=0&k=20&c=wlaxHn6a5BOjOPGi92VypLutLfumhp6Woru6P_gFAww=",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt commodo odio ut tincidunt. Vestibulum sodales condimentum justo, non sagittis elit congue aliquam. Nullam et ante et nisi aliquam vestibulum mollis in sapien. Nunc interdum erat ut metus molestie, sed lacinia mauris porttitor.",
+      "attributes": {
+        "Item Type": "Running Shoes",
+        "SKU": "RUN-389",
+        "Quantity Available": 91,
+        "Created User": "Manager",
+        "Colors Available": 4,
+        "Quantity Sold": 12365,
+        "Discount Available": "25%",
+        "Last Shipment": "25/July/24",
+        "Country Of Origin": "Thailand",
+        "Warranty Available": "No",
+        "Warranty Till": "N/A"
+      },
+      "variantTable": [
         {
-          "id": 140,
-          "size": "6",
-          "color": "Red"
+          "variant": "42-Red",
+          "qty": 7,
+          "partNo": 2458,
+          "price": "₹ 18,000/-"
         },
         {
-          "id": 141,
-          "size": "7",
-          "color": "Red"
+          "variant": "41-Green",
+          "qty": 5,
+          "partNo": 5416,
+          "price": "₹ 18,000/-"
+        },
+        {
+          "variant": "43-Red",
+          "qty": 10,
+          "partNo": 14788,
+          "price": "₹ 18,000/-"
+        },
+        {
+          "variant": "40-Green",
+          "qty": 10,
+          "partNo": 157,
+          "price": "₹ 18,000/-"
         }
-      ],
-      "status": "active",
-      "visibility": "visible"
+      ]
     },
     {
-      "id": 15,
-      "name": "Product 15",
-      "sku": "SKU-015",
-      "price": 14599,
-      "stock": 12,
-      "category": "Riding Gear",
-      "image": "https://source.unsplash.com/random/400x400?sig=15&motorcycle",
-      "variants": [
+      "id": "p4",
+      "name": "CLASSIC OXFORDS",
+      "slug": "4",
+      "price": "10,300-15,300/-",
+      "model": "23KL4",
+      "quantity": 26,
+      "image": "https://media.istockphoto.com/id/474862754/photo/yellow-boots.jpg?s=612x612&w=0&k=20&c=wlaxHn6a5BOjOPGi92VypLutLfumhp6Woru6P_gFAww=",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt commodo odio ut tincidunt. Vestibulum sodales condimentum justo, non sagittis elit congue aliquam. Nullam et ante et nisi aliquam vestibulum mollis in sapien. Nunc interdum erat ut metus molestie, sed lacinia mauris porttitor.",
+      "attributes": {
+        "Item Type": "Formal Shoes",
+        "SKU": "OXF-478",
+        "Quantity Available": 92,
+        "Created User": "User",
+        "Colors Available": 2,
+        "Quantity Sold": 12375,
+        "Discount Available": "10%",
+        "Last Shipment": "28/July/24",
+        "Country Of Origin": "Italy",
+        "Warranty Available": "Yes",
+        "Warranty Till": "15/September/25"
+      },
+      "variantTable": [
         {
-          "id": 150,
-          "size": "6",
-          "color": "Red"
+          "variant": "42-Black",
+          "qty": 8,
+          "partNo": 2459,
+          "price": "₹ 22,000/-"
         },
         {
-          "id": 151,
-          "size": "7",
-          "color": "Brown"
+          "variant": "41-Brown",
+          "qty": 6,
+          "partNo": 5417,
+          "price": "₹ 22,000/-"
+        },
+        {
+          "variant": "43-Black",
+          "qty": 11,
+          "partNo": 14789,
+          "price": "₹ 22,000/-"
+        },
+        {
+          "variant": "40-Brown",
+          "qty": 11,
+          "partNo": 158,
+          "price": "₹ 22,000/-"
         }
-      ],
-      "status": "inactive",
-      "visibility": "visible"
+      ]
+    },
+    {
+      "id": "p5",
+      "name": "ADVENTURE HIKERS",
+      "slug": "5",
+      "price": "10,400-15,400/-",
+      "model": "23KL5",
+      "quantity": 27,
+      "image": "https://media.istockphoto.com/id/474862754/photo/yellow-boots.jpg?s=612x612&w=0&k=20&c=wlaxHn6a5BOjOPGi92VypLutLfumhp6Woru6P_gFAww=",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt commodo odio ut tincidunt. Vestibulum sodales condimentum justo, non sagittis elit congue aliquam. Nullam et ante et nisi aliquam vestibulum mollis in sapien. Nunc interdum erat ut metus molestie, sed lacinia mauris porttitor.",
+      "attributes": {
+        "Item Type": "Hiking Boots",
+        "SKU": "HIK-567",
+        "Quantity Available": 93,
+        "Created User": "Admin",
+        "Colors Available": 3,
+        "Quantity Sold": 12385,
+        "Discount Available": "30%",
+        "Last Shipment": "30/July/24",
+        "Country Of Origin": "Germany",
+        "Warranty Available": "Yes",
+        "Warranty Till": "20/October/25"
+      },
+      "variantTable": [
+        {
+          "variant": "42-Olive",
+          "qty": 9,
+          "partNo": 2460,
+          "price": "₹ 25,000/-"
+        },
+        {
+          "variant": "41-Tan",
+          "qty": 7,
+          "partNo": 5418,
+          "price": "₹ 25,000/-"
+        },
+        {
+          "variant": "43-Olive",
+          "qty": 12,
+          "partNo": 14790,
+          "price": "₹ 25,000/-"
+        },
+        {
+          "variant": "40-Tan",
+          "qty": 12,
+          "partNo": 159,
+          "price": "₹ 25,000/-"
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "name": "SPORT TRAINERS",
+      "slug": "6",
+      "price": "10,500-15,500/-",
+      "model": "23KL6",
+      "quantity": 28,
+      "image": "https://media.istockphoto.com/id/474862754/photo/yellow-boots.jpg?s=612x612&w=0&k=20&c=wlaxHn6a5BOjOPGi92VypLutLfumhp6Woru6P_gFAww=",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt commodo odio ut tincidunt. Vestibulum sodales condimentum justo, non sagittis elit congue aliquam. Nullam et ante et nisi aliquam vestibulum mollis in sapien. Nunc interdum erat ut metus molestie, sed lacinia mauris porttitor.",
+      "attributes": {
+        "Item Type": "Training Shoes",
+        "SKU": "TRN-656",
+        "Quantity Available": 94,
+        "Created User": "Manager",
+        "Colors Available": 5,
+        "Quantity Sold": 12395,
+        "Discount Available": "18%",
+        "Last Shipment": "02/August/24",
+        "Country Of Origin": "China",
+        "Warranty Available": "Yes",
+        "Warranty Till": "25/November/25"
+      },
+      "variantTable": [
+        {
+          "variant": "42-Navy",
+          "qty": 10,
+          "partNo": 2461,
+          "price": "₹ 16,500/-"
+        },
+        {
+          "variant": "41-Gray",
+          "qty": 8,
+          "partNo": 5419,
+          "price": "₹ 16,500/-"
+        },
+        {
+          "variant": "43-Navy",
+          "qty": 13,
+          "partNo": 14791,
+          "price": "₹ 16,500/-"
+        },
+        {
+          "variant": "40-Gray",
+          "qty": 13,
+          "partNo": 160,
+          "price": "₹ 16,500/-"
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "name": "CASUAL LOAFERS",
+      "slug": "7",
+      "price": "10,600-15,600/-",
+      "model": "23KL7",
+      "quantity": 29,
+      "image": "https://media.istockphoto.com/id/474862754/photo/yellow-boots.jpg?s=612x612&w=0&k=20&c=wlaxHn6a5BOjOPGi92VypLutLfumhp6Woru6P_gFAww=",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt commodo odio ut tincidunt. Vestibulum sodales condimentum justo, non sagittis elit congue aliquam. Nullam et ante et nisi aliquam vestibulum mollis in sapien. Nunc interdum erat ut metus molestie, sed lacinia mauris porttitor.",
+      "attributes": {
+        "Item Type": "Casual Loafers",
+        "SKU": "LOA-745",
+        "Quantity Available": 95,
+        "Created User": "User",
+        "Colors Available": 3,
+        "Quantity Sold": 12405,
+        "Discount Available": "22%",
+        "Last Shipment": "05/August/24",
+        "Country Of Origin": "Spain",
+        "Warranty Available": "No",
+        "Warranty Till": "N/A"
+      },
+      "variantTable": [
+        {
+          "variant": "42-Burgundy",
+          "qty": 11,
+          "partNo": 2462,
+          "price": "₹ 19,500/-"
+        },
+        {
+          "variant": "41-Cognac",
+          "qty": 9,
+          "partNo": 5420,
+          "price": "₹ 19,500/-"
+        },
+        {
+          "variant": "43-Burgundy",
+          "qty": 14,
+          "partNo": 14792,
+          "price": "₹ 19,500/-"
+        },
+        {
+          "variant": "40-Cognac",
+          "qty": 14,
+          "partNo": 161,
+          "price": "₹ 19,500/-"
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "name": "FASHION FLATS",
+      "slug": "8",
+      "price": "10,700-15,700/-",
+      "model": "23KL8",
+      "quantity": 30,
+      "image": "https://media.istockphoto.com/id/474862754/photo/yellow-boots.jpg?s=612x612&w=0&k=20&c=wlaxHn6a5BOjOPGi92VypLutLfumhp6Woru6P_gFAww=",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt commodo odio ut tincidunt. Vestibulum sodales condimentum justo, non sagittis elit congue aliquam. Nullam et ante et nisi aliquam vestibulum mollis in sapien. Nunc interdum erat ut metus molestie, sed lacinia mauris porttitor.",
+      "attributes": {
+        "Item Type": "Ballet Flats",
+        "SKU": "FLT-834",
+        "Quantity Available": 96,
+        "Created User": "Admin",
+        "Colors Available": 6,
+        "Quantity Sold": 12415,
+        "Discount Available": "12%",
+        "Last Shipment": "08/August/24",
+        "Country Of Origin": "Brazil",
+        "Warranty Available": "Yes",
+        "Warranty Till": "30/December/25"
+      },
+      "variantTable": [
+        {
+          "variant": "37-Pink",
+          "qty": 12,
+          "partNo": 2463,
+          "price": "₹ 8,500/-"
+        },
+        {
+          "variant": "38-Beige",
+          "qty": 10,
+          "partNo": 5421,
+          "price": "₹ 8,500/-"
+        },
+        {
+          "variant": "39-Pink",
+          "qty": 15,
+          "partNo": 14793,
+          "price": "₹ 8,500/-"
+        },
+        {
+          "variant": "36-Beige",
+          "qty": 15,
+          "partNo": 162,
+          "price": "₹ 8,500/-"
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "name": "LUXURY HEELS",
+      "slug": "9",
+      "price": "10,800-15,800/-",
+      "model": "23KL9",
+      "quantity": 31,
+      "image": "https://media.istockphoto.com/id/474862754/photo/yellow-boots.jpg?s=612x612&w=0&k=20&c=wlaxHn6a5BOjOPGi92VypLutLfumhp6Woru6P_gFAww=",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt commodo odio ut tincidunt. Vestibulum sodales condimentum justo, non sagittis elit congue aliquam. Nullam et ante et nisi aliquam vestibulum mollis in sapien. Nunc interdum erat ut metus molestie, sed lacinia mauris porttitor.",
+      "attributes": {
+        "Item Type": "High Heels",
+        "SKU": "HEL-923",
+        "Quantity Available": 97,
+        "Created User": "Manager",
+        "Colors Available": 4,
+        "Quantity Sold": 12425,
+        "Discount Available": "8%",
+        "Last Shipment": "10/August/24",
+        "Country Of Origin": "France",
+        "Warranty Available": "Yes",
+        "Warranty Till": "05/January/26"
+      },
+      "variantTable": [
+        {
+          "variant": "37-Gold",
+          "qty": 13,
+          "partNo": 2464,
+          "price": "₹ 32,000/-"
+        },
+        {
+          "variant": "38-Silver",
+          "qty": 11,
+          "partNo": 5422,
+          "price": "₹ 32,000/-"
+        },
+        {
+          "variant": "39-Gold",
+          "qty": 16,
+          "partNo": 14794,
+          "price": "₹ 32,000/-"
+        },
+        {
+          "variant": "36-Silver",
+          "qty": 16,
+          "partNo": 163,
+          "price": "₹ 32,000/-"
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "name": "WINTER BOOTS",
+      "slug": "10",
+      "price": "10,900-15,900/-",
+      "model": "23KL10",
+      "quantity": 32,
+      "image": "https://media.istockphoto.com/id/474862754/photo/yellow-boots.jpg?s=612x612&w=0&k=20&c=wlaxHn6a5BOjOPGi92VypLutLfumhp6Woru6P_gFAww=",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt commodo odio ut tincidunt. Vestibulum sodales condimentum justo, non sagittis elit congue aliquam. Nullam et ante et nisi aliquam vestibulum mollis in sapien. Nunc interdum erat ut metus molestie, sed lacinia mauris porttitor.",
+      "attributes": {
+        "Item Type": "Winter Boots",
+        "SKU": "WIN-012",
+        "Quantity Available": 98,
+        "Created User": "User",
+        "Colors Available": 2,
+        "Quantity Sold": 12435,
+        "Discount Available": "35%",
+        "Last Shipment": "12/August/24",
+        "Country Of Origin": "Canada",
+        "Warranty Available": "Yes",
+        "Warranty Till": "10/February/26"
+      },
+      "variantTable": [
+        {
+          "variant": "42-Charcoal",
+          "qty": 14,
+          "partNo": 2465,
+          "price": "₹ 28,000/-"
+        },
+        {
+          "variant": "41-Khaki",
+          "qty": 12,
+          "partNo": 5423,
+          "price": "₹ 28,000/-"
+        },
+        {
+          "variant": "43-Charcoal",
+          "qty": 17,
+          "partNo": 14795,
+          "price": "₹ 28,000/-"
+        },
+        {
+          "variant": "40-Khaki",
+          "qty": 17,
+          "partNo": 164,
+          "price": "₹ 28,000/-"
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "name": "BEACH SANDALS",
+      "slug": "11",
+      "price": "11,000-16,000/-",
+      "model": "23KL11",
+      "quantity": 33,
+      "image": "https://media.istockphoto.com/id/474862754/photo/yellow-boots.jpg?s=612x612&w=0&k=20&c=wlaxHn6a5BOjOPGi92VypLutLfumhp6Woru6P_gFAww=",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt commodo odio ut tincidunt. Vestibulum sodales condimentum justo, non sagittis elit congue aliquam. Nullam et ante et nisi aliquam vestibulum mollis in sapien. Nunc interdum erat ut metus molestie, sed lacinia mauris porttitor.",
+      "attributes": {
+        "Item Type": "Sandals",
+        "SKU": "SAN-101",
+        "Quantity Available": 99,
+        "Created User": "Admin",
+        "Colors Available": 7,
+        "Quantity Sold": 12445,
+        "Discount Available": "40%",
+        "Last Shipment": "15/August/24",
+        "Country Of Origin": "Philippines",
+        "Warranty Available": "No",
+        "Warranty Till": "N/A"
+      },
+      "variantTable": [
+        {
+          "variant": "40-Coral",
+          "qty": 15,
+          "partNo": 2466,
+          "price": "₹ 6,500/-"
+        },
+        {
+          "variant": "41-Turquoise",
+          "qty": 13,
+          "partNo": 5424,
+          "price": "₹ 6,500/-"
+        },
+        {
+          "variant": "42-Coral",
+          "qty": 18,
+          "partNo": 14796,
+          "price": "₹ 6,500/-"
+        },
+        {
+          "variant": "39-Turquoise",
+          "qty": 18,
+          "partNo": 165,
+          "price": "₹ 6,500/-"
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "name": "DANCE SHOES",
+      "slug": "12",
+      "price": "11,100-16,100/-",
+      "model": "23KL12",
+      "quantity": 34,
+      "image": "https://media.istockphoto.com/id/474862754/photo/yellow-boots.jpg?s=612x612&w=0&k=20&c=wlaxHn6a5BOjOPGi92VypLutLfumhp6Woru6P_gFAww=",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt commodo odio ut tincidunt. Vestibulum sodales condimentum justo, non sagittis elit congue aliquam. Nullam et ante et nisi aliquam vestibulum mollis in sapien. Nunc interdum erat ut metus molestie, sed lacinia mauris porttitor.",
+      "attributes": {
+        "Item Type": "Dance Shoes",
+        "SKU": "DAN-290",
+        "Quantity Available": 100,
+        "Created User": "Manager",
+        "Colors Available": 3,
+        "Quantity Sold": 12455,
+        "Discount Available": "16%",
+        "Last Shipment": "18/August/24",
+        "Country Of Origin": "Argentina",
+        "Warranty Available": "Yes",
+        "Warranty Till": "15/March/26"
+      },
+      "variantTable": [
+        {
+          "variant": "37-Satin",
+          "qty": 16,
+          "partNo": 2467,
+          "price": "₹ 14,500/-"
+        },
+        {
+          "variant": "38-Velvet",
+          "qty": 14,
+          "partNo": 5425,
+          "price": "₹ 14,500/-"
+        },
+        {
+          "variant": "39-Satin",
+          "qty": 19,
+          "partNo": 14797,
+          "price": "₹ 14,500/-"
+        },
+        {
+          "variant": "36-Velvet",
+          "qty": 19,
+          "partNo": 166,
+          "price": "₹ 14,500/-"
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "name": "WORK SAFETY",
+      "slug": "13",
+      "price": "11,200-16,200/-",
+      "model": "23KL13",
+      "quantity": 35,
+      "image": "https://media.istockphoto.com/id/474862754/photo/yellow-boots.jpg?s=612x612&w=0&k=20&c=wlaxHn6a5BOjOPGi92VypLutLfumhp6Woru6P_gFAww=",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt commodo odio ut tincidunt. Vestibulum sodales condimentum justo, non sagittis elit congue aliquam. Nullam et ante et nisi aliquam vestibulum mollis in sapien. Nunc interdum erat ut metus molestie, sed lacinia mauris porttitor.",
+      "attributes": {
+        "Item Type": "Safety Boots",
+        "SKU": "SAF-379",
+        "Quantity Available": 101,
+        "Created User": "User",
+        "Colors Available": 2,
+        "Quantity Sold": 12465,
+        "Discount Available": "5%",
+        "Last Shipment": "20/August/24",
+        "Country Of Origin": "USA",
+        "Warranty Available": "Yes",
+        "Warranty Till": "20/April/26"
+      },
+      "variantTable": [
+        {
+          "variant": "42-Steel",
+          "qty": 17,
+          "partNo": 2468,
+          "price": "₹ 21,000/-"
+        },
+        {
+          "variant": "41-Yellow",
+          "qty": 15,
+          "partNo": 5426,
+          "price": "₹ 21,000/-"
+        },
+        {
+          "variant": "43-Steel",
+          "qty": 20,
+          "partNo": 14798,
+          "price": "₹ 21,000/-"
+        },
+        {
+          "variant": "40-Yellow",
+          "qty": 20,
+          "partNo": 167,
+          "price": "₹ 21,000/-"
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "name": "TENNIS COURT",
+      "slug": "14",
+      "price": "11,300-16,300/-",
+      "model": "23KL14",
+      "quantity": 36,
+      "image": "https://media.istockphoto.com/id/474862754/photo/yellow-boots.jpg?s=612x612&w=0&k=20&c=wlaxHn6a5BOjOPGi92VypLutLfumhp6Woru6P_gFAww=",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt commodo odio ut tincidunt. Vestibulum sodales condimentum justo, non sagittis elit congue aliquam. Nullam et ante et nisi aliquam vestibulum mollis in sapien. Nunc interdum erat ut metus molestie, sed lacinia mauris porttitor.",
+      "attributes": {
+        "Item Type": "Tennis Shoes",
+        "SKU": "TEN-468",
+        "Quantity Available": 102,
+        "Created User": "Admin",
+        "Colors Available": 4,
+        "Quantity Sold": 12475,
+        "Discount Available": "28%",
+        "Last Shipment": "22/August/24",
+        "Country Of Origin": "Japan",
+        "Warranty Available": "Yes",
+        "Warranty Till": "25/May/26"
+      },
+      "variantTable": [
+        {
+          "variant": "42-Lime",
+          "qty": 18,
+          "partNo": 2469,
+          "price": "₹ 17,500/-"
+        },
+        {
+          "variant": "41-Orange",
+          "qty": 16,
+          "partNo": 5427,
+          "price": "₹ 17,500/-"
+        },
+        {
+          "variant": "43-Lime",
+          "qty": 21,
+          "partNo": 14799,
+          "price": "₹ 17,500/-"
+        },
+        {
+          "variant": "40-Orange",
+          "qty": 21,
+          "partNo": 168,
+          "price": "₹ 17,500/-"
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "name": "VINTAGE CLASSICS",
+      "slug": "15",
+      "price": "11,400-16,400/-",
+      "model": "23KL15",
+      "quantity": 37,
+      "image": "https://media.istockphoto.com/id/474862754/photo/yellow-boots.jpg?s=612x612&w=0&k=20&c=wlaxHn6a5BOjOPGi92VypLutLfumhp6Woru6P_gFAww=",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt commodo odio ut tincidunt. Vestibulum sodales condimentum justo, non sagittis elit congue aliquam. Nullam et ante et nisi aliquam vestibulum mollis in sapien. Nunc interdum erat ut metus molestie, sed lacinia mauris porttitor.",
+      "attributes": {
+        "Item Type": "Vintage Sneakers",
+        "SKU": "VIN-557",
+        "Quantity Available": 103,
+        "Created User": "Manager",
+        "Colors Available": 5,
+        "Quantity Sold": 12485,
+        "Discount Available": "32%",
+        "Last Shipment": "25/August/24",
+        "Country Of Origin": "United Kingdom",
+        "Warranty Available": "No",
+        "Warranty Till": "N/A"
+      },
+      "variantTable": [
+        {
+          "variant": "42-Cream",
+          "qty": 19,
+          "partNo": 2470,
+          "price": "₹ 13,500/-"
+        },
+        {
+          "variant": "41-Mint",
+          "qty": 17,
+          "partNo": 5428,
+          "price": "₹ 13,500/-"
+        },
+        {
+          "variant": "43-Cream",
+          "qty": 22,
+          "partNo": 14800,
+          "price": "₹ 13,500/-"
+        },
+        {
+          "variant": "40-Mint",
+          "qty": 22,
+          "partNo": 169,
+          "price": "₹ 13,500/-"
+        }
+      ]
     }
   ],
   "orders": [
     {
-      "id": 2,
-      "order_number": "ORD-102",
-      "dealer_id": 1,
-      "status": "delivered",
-      "total": 15220,
+      "id": "23412",
+      "customer": {
+        "name": "Rajesh Sharma",
+        "phone": "+91 96879 245879",
+        "email": "rajeshsharma@gmail.com",
+        "location": "New Delhi"
+      },
+      "amount": "15,873/-",
+      "date": "23/3/25",
       "items": [
-        {
-          "product_id": 14,
-          "quantity": 1
-        },
-        {
-          "product_id": 5,
-          "quantity": 3
-        }
+        { "name": "Valor Boots", "quantity": 2, "price": "Rs.15,000/-" },
+        { "name": "Urban Sneakers", "quantity": 1, "price": "Rs.12,500/-" },
+        { "name": "Classic Oxfords", "quantity": 1, "price": "Rs.22,000/-" }
       ],
-      "notes": "Standard delivery",
-      "created_at": "2024-07-03T10:00:00"
+      "shippingAddress": "123 Main Street, New Delhi",
+      "billingAddress": "123 Main Street, New Delhi",
+      "paymentStatus": "Paid",
+      "paymentMethod": "Cash On Delivery"
     },
     {
-      "id": 3,
-      "order_number": "ORD-103",
-      "dealer_id": 1,
-      "status": "processing",
-      "total": 15625,
+      "id": "23413",
+      "customer": {
+        "name": "Priya Patel",
+        "phone": "+91 98765 43210",
+        "email": "priyapatel@gmail.com",
+        "location": "Mumbai"
+      },
+      "amount": "28,500/-",
+      "date": "24/3/25",
       "items": [
-        {
-          "product_id": 14,
-          "quantity": 3
-        },
-        {
-          "product_id": 3,
-          "quantity": 3
-        }
+        { "name": "Elite Runners", "quantity": 1, "price": "Rs.18,000/-" },
+        { "name": "Fashion Flats", "quantity": 2, "price": "Rs.8,500/-" },
+        { "name": "Luxury Heels", "quantity": 1, "price": "Rs.32,000/-" }
       ],
-      "notes": "Standard delivery",
-      "created_at": "2024-07-04T10:00:00"
+      "shippingAddress": "456 Park Avenue, Mumbai",
+      "billingAddress": "456 Park Avenue, Mumbai",
+      "paymentStatus": "Pending",
+      "paymentMethod": "Credit Card"
     },
     {
-      "id": 4,
-      "order_number": "ORD-104",
-      "dealer_id": 1,
-      "status": "delivered",
-      "total": 9676,
+      "id": "23414",
+      "customer": {
+        "name": "Amit Kumar",
+        "phone": "+91 87654 32109",
+        "email": "amitkumar@yahoo.com",
+        "location": "Bangalore"
+      },
+      "amount": "41,500/-",
+      "date": "25/3/25",
       "items": [
-        {
-          "product_id": 4,
-          "quantity": 3
-        },
-        {
-          "product_id": 2,
-          "quantity": 3
-        }
+        { "name": "Adventure Hikers", "quantity": 1, "price": "Rs.25,000/-" },
+        { "name": "Sport Trainers", "quantity": 1, "price": "Rs.16,500/-" },
+        { "name": "Winter Boots", "quantity": 1, "price": "Rs.28,000/-" }
       ],
-      "notes": "Standard delivery",
-      "created_at": "2024-07-05T10:00:00"
+      "shippingAddress": "789 Tech Park, Bangalore",
+      "billingAddress": "789 Tech Park, Bangalore",
+      "paymentStatus": "Paid",
+      "paymentMethod": "UPI"
     },
     {
-      "id": 5,
-      "order_number": "ORD-105",
-      "dealer_id": 1,
-      "status": "processing",
-      "total": 12047,
+      "id": "23415",
+      "customer": {
+        "name": "Sneha Reddy",
+        "phone": "+91 76543 21098",
+        "email": "snehareddy@outlook.com",
+        "location": "Hyderabad"
+      },
+      "amount": "33,000/-",
+      "date": "26/3/25",
       "items": [
-        {
-          "product_id": 1,
-          "quantity": 2
-        },
-        {
-          "product_id": 2,
-          "quantity": 3
-        }
+        { "name": "Casual Loafers", "quantity": 1, "price": "Rs.19,500/-" },
+        { "name": "Beach Sandals", "quantity": 2, "price": "Rs.6,500/-" },
+        { "name": "Dance Shoes", "quantity": 1, "price": "Rs.14,500/-" }
       ],
-      "notes": "Urgent order",
-      "created_at": "2024-07-06T10:00:00"
+      "shippingAddress": "321 Hi-Tech City, Hyderabad",
+      "billingAddress": "321 Hi-Tech City, Hyderabad",
+      "paymentStatus": "Paid",
+      "paymentMethod": "Debit Card"
     },
     {
-      "id": 6,
-      "order_number": "ORD-106",
-      "dealer_id": 1,
-      "status": "delivered",
-      "total": 7793,
+      "id": "23416",
+      "customer": {
+        "name": "Vikram Singh",
+        "phone": "+91 65432 10987",
+        "email": "vikramsingh@gmail.com",
+        "location": "Pune"
+      },
+      "amount": "42,000/-",
+      "date": "27/3/25",
       "items": [
-        {
-          "product_id": 15,
-          "quantity": 2
-        },
-        {
-          "product_id": 4,
-          "quantity": 3
-        }
+        { "name": "Work Safety", "quantity": 2, "price": "Rs.21,000/-" },
+        { "name": "Tennis Court", "quantity": 1, "price": "Rs.17,500/-" },
+        { "name": "Vintage Classics", "quantity": 1, "price": "Rs.13,500/-" }
       ],
-      "notes": "Handle with care",
-      "created_at": "2024-07-07T10:00:00"
+      "shippingAddress": "654 Industrial Area, Pune",
+      "billingAddress": "654 Industrial Area, Pune",
+      "paymentStatus": "Failed",
+      "paymentMethod": "Net Banking"
     },
     {
-      "id": 7,
-      "order_number": "ORD-107",
-      "dealer_id": 1,
-      "status": "delivered",
-      "total": 18743,
+      "id": "23417",
+      "customer": {
+        "name": "Kavya Nair",
+        "phone": "+91 54321 09876",
+        "email": "kavyanair@gmail.com",
+        "location": "Kochi"
+      },
+      "amount": "19,500/-",
+      "date": "28/3/25",
       "items": [
-        {
-          "product_id": 11,
-          "quantity": 3
-        },
-        {
-          "product_id": 9,
-          "quantity": 3
-        }
+        { "name": "Fashion Flats", "quantity": 1, "price": "Rs.8,500/-" },
+        { "name": "Casual Loafers", "quantity": 1, "price": "Rs.19,500/-" },
+        { "name": "Beach Sandals", "quantity": 1, "price": "Rs.6,500/-" }
       ],
-      "notes": "Urgent order",
-      "created_at": "2024-07-08T10:00:00"
+      "shippingAddress": "987 Marine Drive, Kochi",
+      "billingAddress": "987 Marine Drive, Kochi",
+      "paymentStatus": "Paid",
+      "paymentMethod": "Cash On Delivery"
     },
     {
-      "id": 8,
-      "order_number": "ORD-108",
-      "dealer_id": 1,
-      "status": "delivered",
-      "total": 19598,
+      "id": "23418",
+      "customer": {
+        "name": "Rohit Gupta",
+        "phone": "+91 43210 98765",
+        "email": "rohitgupta@hotmail.com",
+        "location": "Jaipur"
+      },
+      "amount": "51,000/-",
+      "date": "29/3/25",
       "items": [
-        {
-          "product_id": 14,
-          "quantity": 2
-        },
-        {
-          "product_id": 4,
-          "quantity": 2
-        }
+        { "name": "Luxury Heels", "quantity": 1, "price": "Rs.32,000/-" },
+        { "name": "Classic Oxfords", "quantity": 1, "price": "Rs.22,000/-" },
+        { "name": "Dance Shoes", "quantity": 1, "price": "Rs.14,500/-" }
       ],
-      "notes": "Standard delivery",
-      "created_at": "2024-07-09T10:00:00"
+      "shippingAddress": "147 Pink City Mall, Jaipur",
+      "billingAddress": "147 Pink City Mall, Jaipur",
+      "paymentStatus": "Paid",
+      "paymentMethod": "UPI"
     },
     {
-      "id": 9,
-      "order_number": "ORD-109",
-      "dealer_id": 1,
-      "status": "delivered",
-      "total": 6401,
+      "id": "23419",
+      "customer": {
+        "name": "Anita Desai",
+        "phone": "+91 32109 87654",
+        "email": "anitadesai@gmail.com",
+        "location": "Ahmedabad"
+      },
+      "amount": "24,000/-",
+      "date": "30/3/25",
       "items": [
-        {
-          "product_id": 14,
-          "quantity": 2
-        },
-        {
-          "product_id": 7,
-          "quantity": 3
-        }
+        { "name": "Urban Sneakers", "quantity": 1, "price": "Rs.12,500/-" },
+        { "name": "Sport Trainers", "quantity": 1, "price": "Rs.16,500/-" },
+        { "name": "Tennis Court", "quantity": 1, "price": "Rs.17,500/-" }
       ],
-      "notes": "Handle with care",
-      "created_at": "2024-07-10T10:00:00"
+      "shippingAddress": "258 Commercial Street, Ahmedabad",
+      "billingAddress": "258 Commercial Street, Ahmedabad",
+      "paymentStatus": "Pending",
+      "paymentMethod": "Credit Card"
     },
     {
-      "id": 10,
-      "order_number": "ORD-110",
-      "dealer_id": 1,
-      "status": "processing",
-      "total": 15695,
+      "id": "23420",
+      "customer": {
+        "name": "Suresh Iyer",
+        "phone": "+91 21098 76543",
+        "email": "sureshiyer@yahoo.com",
+        "location": "Chennai"
+      },
+      "amount": "37,500/-",
+      "date": "31/3/25",
       "items": [
-        {
-          "product_id": 12,
-          "quantity": 1
-        },
-        {
-          "product_id": 3,
-          "quantity": 2
-        }
+        { "name": "Adventure Hikers", "quantity": 1, "price": "Rs.25,000/-" },
+        { "name": "Vintage Classics", "quantity": 1, "price": "Rs.13,500/-" },
+        { "name": "Elite Runners", "quantity": 1, "price": "Rs.18,000/-" }
       ],
-      "notes": "Urgent order",
-      "created_at": "2024-07-11T10:00:00"
+      "shippingAddress": "369 IT Corridor, Chennai",
+      "billingAddress": "369 IT Corridor, Chennai",
+      "paymentStatus": "Paid",
+      "paymentMethod": "Debit Card"
     },
     {
-      "id": 11,
-      "order_number": "ORD-111",
-      "dealer_id": 1,
-      "status": "shipped",
-      "total": 7123,
+      "id": "23421",
+      "customer": {
+        "name": "Meera Joshi",
+        "phone": "+91 10987 65432",
+        "email": "meerajoshi@gmail.com",
+        "location": "Kolkata"
+      },
+      "amount": "46,500/-",
+      "date": "1/4/25",
       "items": [
-        {
-          "product_id": 8,
-          "quantity": 1
-        },
-        {
-          "product_id": 10,
-          "quantity": 1
-        }
+        { "name": "Winter Boots", "quantity": 1, "price": "Rs.28,000/-" },
+        { "name": "Work Safety", "quantity": 1, "price": "Rs.21,000/-" },
+        { "name": "Valor Boots", "quantity": 1, "price": "Rs.15,000/-" }
       ],
-      "notes": "Urgent order",
-      "created_at": "2024-07-12T10:00:00"
-    },
-    {
-      "id": 12,
-      "order_number": "ORD-112",
-      "dealer_id": 1,
-      "status": "delivered",
-      "total": 8781,
-      "items": [
-        {
-          "product_id": 8,
-          "quantity": 2
-        },
-        {
-          "product_id": 15,
-          "quantity": 1
-        }
-      ],
-      "notes": "Handle with care",
-      "created_at": "2024-07-13T10:00:00"
-    },
-    {
-      "id": 13,
-      "order_number": "ORD-113",
-      "dealer_id": 1,
-      "status": "delivered",
-      "total": 15002,
-      "items": [
-        {
-          "product_id": 1,
-          "quantity": 2
-        },
-        {
-          "product_id": 4,
-          "quantity": 2
-        }
-      ],
-      "notes": "Urgent order",
-      "created_at": "2024-07-14T10:00:00"
-    },
-    {
-      "id": 14,
-      "order_number": "ORD-114",
-      "dealer_id": 1,
-      "status": "delivered",
-      "total": 9219,
-      "items": [
-        {
-          "product_id": 1,
-          "quantity": 2
-        },
-        {
-          "product_id": 3,
-          "quantity": 3
-        }
-      ],
-      "notes": "Handle with care",
-      "created_at": "2024-07-15T10:00:00"
-    },
-    {
-      "id": 15,
-      "order_number": "ORD-115",
-      "dealer_id": 1,
-      "status": "shipped",
-      "total": 10396,
-      "items": [
-        {
-          "product_id": 7,
-          "quantity": 2
-        },
-        {
-          "product_id": 5,
-          "quantity": 2
-        }
-      ],
-      "notes": "Urgent order",
-      "created_at": "2024-07-16T10:00:00"
-    },
-    {
-      "id": 16,
-      "order_number": "ORD-116",
-      "dealer_id": 1,
-      "status": "processing",
-      "total": 20220,
-      "items": [
-        {
-          "product_id": 13,
-          "quantity": 3
-        },
-        {
-          "product_id": 3,
-          "quantity": 3
-        }
-      ],
-      "notes": "Urgent order",
-      "created_at": "2024-07-17T10:00:00"
+      "shippingAddress": "741 Salt Lake City, Kolkata",
+      "billingAddress": "741 Salt Lake City, Kolkata",
+      "paymentStatus": "Paid",
+      "paymentMethod": "Net Banking"
     }
   ],
   "dealers": [
     {
-      "id": 1,
-      "name": "Classic Riders Goa",
-      "email": "dealer@classicriders.com",
-      "phone": "+91-9876543210",
-      "gst": "29ABCDE1234F1Z5",
-      "address": {
-        "line1": "Shop 12, Market Road",
-        "city": "Panaji",
-        "state": "Goa",
-        "pincode": "403001"
-      },
-      "status": "active"
+      "id": "dealer-1001",
+      "name": "Maharashtra Motors",
+      "phone": "9876543210",
+      "email": "mahamotors@gmail.com",
+      "location": "Mumbai, Maharashtra",
+      "gstNumber": "27AAFCM1234A1Z5",
+      "panNumber": "AAFCM1234A",
+      "address": "45, Industrial Area, Andheri East, Mumbai",
+      "city": "Mumbai",
+      "pincode": "400093",
+      "state": "Maharashtra",
+      "profilePhoto": "",
+      "analytics": { "orders": 120, "revenue": "₹ 45,00,000" },
+      "orderHistory": [
+        { "id": "ORD1101", "items": 4, "amount": "₹ 15,000" },
+        { "id": "ORD1102", "items": 2, "amount": "₹ 8,000" },
+        { "id": "ORD1103", "items": 6, "amount": "₹ 22,000" }
+      ],
+      "slabPricing": [
+        {
+          "product": "VALOR BOOTS",
+          "discount": "10%",
+          "slab": "10+",
+          "amount": "₹ 1,30,000"
+        },
+        {
+          "product": "STREET ARMOR",
+          "discount": "12%",
+          "slab": "20+",
+          "amount": "₹ 2,40,000"
+        }
+      ],
+      "contacts": [
+        {
+          "name": "Nikhil Sharma",
+          "role": "Owner",
+          "phone": "9876543210",
+          "email": "nikhil@mahamotors.com"
+        },
+        {
+          "name": "Rahul Patil",
+          "role": "Manager",
+          "phone": "9988776655",
+          "email": "rahul@mahamotors.com"
+        }
+      ]
     },
     {
-      "id": 2,
-      "name": "Dealer 2",
-      "email": "dealer2@example.com",
-      "phone": "+91-9826966796",
-      "gst": "27AABCU0002Z2",
-      "address": {
-        "line1": "50 Main Road",
-        "city": "Mumbai",
-        "state": "Goa",
-        "pincode": "497358"
-      },
-      "status": "inactive"
+      "id": "dealer-1002",
+      "name": "Delhi Auto Hub",
+      "phone": "9811234567",
+      "email": "delhiautohub@gmail.com",
+      "location": "New Delhi, Delhi",
+      "gstNumber": "07AABCD1234B1Z6",
+      "panNumber": "AABCD1234B",
+      "address": "23, Karol Bagh Main Road, New Delhi",
+      "city": "New Delhi",
+      "pincode": "110005",
+      "state": "Delhi",
+      "profilePhoto": "",
+      "analytics": { "orders": 95, "revenue": "₹ 38,50,000" },
+      "orderHistory": [
+        { "id": "ORD1201", "items": 3, "amount": "₹ 12,500" },
+        { "id": "ORD1202", "items": 5, "amount": "₹ 18,000" },
+        { "id": "ORD1203", "items": 2, "amount": "₹ 9,500" }
+      ],
+      "slabPricing": [
+        {
+          "product": "URBAN SNEAKERS",
+          "discount": "8%",
+          "slab": "15+",
+          "amount": "₹ 1,87,500"
+        },
+        {
+          "product": "CLASSIC OXFORDS",
+          "discount": "15%",
+          "slab": "25+",
+          "amount": "₹ 5,50,000"
+        }
+      ],
+      "contacts": [
+        {
+          "name": "Rajesh Kumar",
+          "role": "Owner",
+          "phone": "9811234567",
+          "email": "rajesh@delhiautohub.com"
+        },
+        {
+          "name": "Priya Singh",
+          "role": "Sales Manager",
+          "phone": "9876543211",
+          "email": "priya@delhiautohub.com"
+        }
+      ]
     },
     {
-      "id": 3,
-      "name": "Dealer 3",
-      "email": "dealer3@example.com",
-      "phone": "+91-9865307663",
-      "gst": "27AABCU0003Z3",
-      "address": {
-        "line1": "80 Main Road",
-        "city": "Mumbai",
-        "state": "Maharashtra",
-        "pincode": "408491"
-      },
-      "status": "inactive"
+      "id": "dealer-1003",
+      "name": "Bangalore Footwear Store",
+      "phone": "9845123456",
+      "email": "bangalorefootwear@gmail.com",
+      "location": "Bangalore, Karnataka",
+      "gstNumber": "29AABFK1234C1Z7",
+      "panNumber": "AABFK1234C",
+      "address": "156, Brigade Road, Bangalore",
+      "city": "Bangalore",
+      "pincode": "560001",
+      "state": "Karnataka",
+      "profilePhoto": "",
+      "analytics": { "orders": 78, "revenue": "₹ 29,25,000" },
+      "orderHistory": [
+        { "id": "ORD1301", "items": 7, "amount": "₹ 24,500" },
+        { "id": "ORD1302", "items": 4, "amount": "₹ 16,000" },
+        { "id": "ORD1303", "items": 3, "amount": "₹ 11,200" }
+      ],
+      "slabPricing": [
+        {
+          "product": "ELITE RUNNERS",
+          "discount": "12%",
+          "slab": "12+",
+          "amount": "₹ 2,16,000"
+        },
+        {
+          "product": "SPORT TRAINERS",
+          "discount": "10%",
+          "slab": "18+",
+          "amount": "₹ 2,97,000"
+        }
+      ],
+      "contacts": [
+        {
+          "name": "Sunil Rao",
+          "role": "Proprietor",
+          "phone": "9845123456",
+          "email": "sunil@bangalorefootwear.com"
+        },
+        {
+          "name": "Kavitha Nair",
+          "role": "Assistant Manager",
+          "phone": "9900123456",
+          "email": "kavitha@bangalorefootwear.com"
+        }
+      ]
+    },
+    {
+      "id": "dealer-1004",
+      "name": "Chennai Shoe Palace",
+      "phone": "9444567890",
+      "email": "chennaishoepalace@gmail.com",
+      "location": "Chennai, Tamil Nadu",
+      "gstNumber": "33AACSP1234D1Z8",
+      "panNumber": "AACSP1234D",
+      "address": "78, T. Nagar Main Street, Chennai",
+      "city": "Chennai",
+      "pincode": "600017",
+      "state": "Tamil Nadu",
+      "profilePhoto": "",
+      "analytics": { "orders": 102, "revenue": "₹ 41,75,000" },
+      "orderHistory": [
+        { "id": "ORD1401", "items": 5, "amount": "₹ 19,500" },
+        { "id": "ORD1402", "items": 8, "amount": "₹ 32,000" },
+        { "id": "ORD1403", "items": 2, "amount": "₹ 7,800" }
+      ],
+      "slabPricing": [
+        {
+          "product": "ADVENTURE HIKERS",
+          "discount": "14%",
+          "slab": "8+",
+          "amount": "₹ 2,00,000"
+        },
+        {
+          "product": "LUXURY HEELS",
+          "discount": "18%",
+          "slab": "5+",
+          "amount": "₹ 1,60,000"
+        }
+      ],
+      "contacts": [
+        {
+          "name": "Venkatesh Iyer",
+          "role": "Owner",
+          "phone": "9444567890",
+          "email": "venkatesh@chennaishoepalace.com"
+        },
+        {
+          "name": "Meera Subramanian",
+          "role": "Store Manager",
+          "phone": "9444123789",
+          "email": "meera@chennaishoepalace.com"
+        }
+      ]
+    },
+    {
+      "id": "dealer-1005",
+      "name": "Hyderabad Footgear Co",
+      "phone": "9989876543",
+      "email": "hyderfootgear@gmail.com",
+      "location": "Hyderabad, Telangana",
+      "gstNumber": "36AAHFC1234E1Z9",
+      "panNumber": "AAHFC1234E",
+      "address": "234, Hi-Tech City, Hyderabad",
+      "city": "Hyderabad",
+      "pincode": "500081",
+      "state": "Telangana",
+      "profilePhoto": "",
+      "analytics": { "orders": 67, "revenue": "₹ 22,90,000" },
+      "orderHistory": [
+        { "id": "ORD1501", "items": 6, "amount": "₹ 21,000" },
+        { "id": "ORD1502", "items": 3, "amount": "₹ 13,500" },
+        { "id": "ORD1503", "items": 4, "amount": "₹ 17,200" }
+      ],
+      "slabPricing": [
+        {
+          "product": "CASUAL LOAFERS",
+          "discount": "11%",
+          "slab": "10+",
+          "amount": "₹ 1,95,000"
+        },
+        {
+          "product": "FASHION FLATS",
+          "discount": "9%",
+          "slab": "20+",
+          "amount": "₹ 1,70,000"
+        }
+      ],
+      "contacts": [
+        {
+          "name": "Arjun Reddy",
+          "role": "Managing Director",
+          "phone": "9989876543",
+          "email": "arjun@hyderfootgear.com"
+        },
+        {
+          "name": "Divya Chandra",
+          "role": "Operations Head",
+          "phone": "9866543210",
+          "email": "divya@hyderfootgear.com"
+        }
+      ]
+    },
+    {
+      "id": "dealer-1006",
+      "name": "Pune Premium Shoes",
+      "phone": "9823456789",
+      "email": "punepremiumshoes@gmail.com",
+      "location": "Pune, Maharashtra",
+      "gstNumber": "27AAPPS1234F1Y0",
+      "panNumber": "AAPPS1234F",
+      "address": "89, FC Road, Shivajinagar, Pune",
+      "city": "Pune",
+      "pincode": "411005",
+      "state": "Maharashtra",
+      "profilePhoto": "",
+      "analytics": { "orders": 89, "revenue": "₹ 35,60,000" },
+      "orderHistory": [
+        { "id": "ORD1601", "items": 9, "amount": "₹ 38,500" },
+        { "id": "ORD1602", "items": 1, "amount": "₹ 5,200" },
+        { "id": "ORD1603", "items": 7, "amount": "₹ 28,700" }
+      ],
+      "slabPricing": [
+        {
+          "product": "WINTER BOOTS",
+          "discount": "16%",
+          "slab": "6+",
+          "amount": "₹ 1,68,000"
+        },
+        {
+          "product": "DANCE SHOES",
+          "discount": "13%",
+          "slab": "12+",
+          "amount": "₹ 1,74,000"
+        }
+      ],
+      "contacts": [
+        {
+          "name": "Vikram Joshi",
+          "role": "Owner",
+          "phone": "9823456789",
+          "email": "vikram@punepremiumshoes.com"
+        },
+        {
+          "name": "Anita Kulkarni",
+          "role": "Branch Manager",
+          "phone": "9822334455",
+          "email": "anita@punepremiumshoes.com"
+        }
+      ]
+    },
+    {
+      "id": "dealer-1007",
+      "name": "Kolkata Leather World",
+      "phone": "9830123456",
+      "email": "kolkataleatherworld@gmail.com",
+      "location": "Kolkata, West Bengal",
+      "gstNumber": "19AAKLW1234G1Y1",
+      "panNumber": "AAKLW1234G",
+      "address": "67, Park Street, Kolkata",
+      "city": "Kolkata",
+      "pincode": "700016",
+      "state": "West Bengal",
+      "profilePhoto": "",
+      "analytics": { "orders": 113, "revenue": "₹ 48,75,000" },
+      "orderHistory": [
+        { "id": "ORD1701", "items": 4, "amount": "₹ 18,400" },
+        { "id": "ORD1702", "items": 6, "amount": "₹ 25,800" },
+        { "id": "ORD1703", "items": 5, "amount": "₹ 22,500" }
+      ],
+      "slabPricing": [
+        {
+          "product": "WORK SAFETY",
+          "discount": "17%",
+          "slab": "8+",
+          "amount": "₹ 1,68,000"
+        },
+        {
+          "product": "TENNIS COURT",
+          "discount": "12%",
+          "slab": "15+",
+          "amount": "₹ 2,62,500"
+        }
+      ],
+      "contacts": [
+        {
+          "name": "Debashish Ghosh",
+          "role": "Proprietor",
+          "phone": "9830123456",
+          "email": "debashish@kolkataleatherworld.com"
+        },
+        {
+          "name": "Sunita Banerjee",
+          "role": "Sales Head",
+          "phone": "9831987654",
+          "email": "sunita@kolkataleatherworld.com"
+        }
+      ]
+    },
+    {
+      "id": "dealer-1008",
+      "name": "Ahmedabad Footwear Mart",
+      "phone": "9978123456",
+      "email": "ahmedfootwearmart@gmail.com",
+      "location": "Ahmedabad, Gujarat",
+      "gstNumber": "24AAAFM1234H1Y2",
+      "panNumber": "AAAFM1234H",
+      "address": "123, CG Road, Navrangpura, Ahmedabad",
+      "city": "Ahmedabad",
+      "pincode": "380009",
+      "state": "Gujarat",
+      "profilePhoto": "",
+      "analytics": { "orders": 71, "revenue": "₹ 26,85,000" },
+      "orderHistory": [
+        { "id": "ORD1801", "items": 3, "amount": "₹ 14,700" },
+        { "id": "ORD1802", "items": 8, "amount": "₹ 33,600" },
+        { "id": "ORD1803", "items": 2, "amount": "₹ 8,900" }
+      ],
+      "slabPricing": [
+        {
+          "product": "VINTAGE CLASSICS",
+          "discount": "10%",
+          "slab": "14+",
+          "amount": "₹ 1,89,000"
+        },
+        {
+          "product": "BEACH SANDALS",
+          "discount": "8%",
+          "slab": "25+",
+          "amount": "₹ 1,62,500"
+        }
+      ],
+      "contacts": [
+        {
+          "name": "Kiran Patel",
+          "role": "Managing Partner",
+          "phone": "9978123456",
+          "email": "kiran@ahmedfootwearmart.com"
+        },
+        {
+          "name": "Jayesh Shah",
+          "role": "Store Supervisor",
+          "phone": "9909876543",
+          "email": "jayesh@ahmedfootwearmart.com"
+        }
+      ]
+    },
+    {
+      "id": "dealer-1009",
+      "name": "Jaipur Royal Footwear",
+      "phone": "9414567890",
+      "email": "jaipurroyalfootwear@gmail.com",
+      "location": "Jaipur, Rajasthan",
+      "gstNumber": "08AAJRF1234I1Y3",
+      "panNumber": "AAJRF1234I",
+      "address": "45, MI Road, C-Scheme, Jaipur",
+      "city": "Jaipur",
+      "pincode": "302001",
+      "state": "Rajasthan",
+      "profilePhoto": "",
+      "analytics": { "orders": 84, "revenue": "₹ 31,20,000" },
+      "orderHistory": [
+        { "id": "ORD1901", "items": 5, "amount": "₹ 23,500" },
+        { "id": "ORD1902", "items": 7, "amount": "₹ 29,400" },
+        { "id": "ORD1903", "items": 3, "amount": "₹ 12,600" }
+      ],
+      "slabPricing": [
+        {
+          "product": "VALOR BOOTS",
+          "discount": "13%",
+          "slab": "9+",
+          "amount": "₹ 1,35,000"
+        },
+        {
+          "product": "URBAN SNEAKERS",
+          "discount": "11%",
+          "slab": "16+",
+          "amount": "₹ 2,00,000"
+        }
+      ],
+      "contacts": [
+        {
+          "name": "Mahesh Agarwal",
+          "role": "Owner",
+          "phone": "9414567890",
+          "email": "mahesh@jaipurroyalfootwear.com"
+        },
+        {
+          "name": "Ritu Sharma",
+          "role": "Assistant Manager",
+          "phone": "9414123789",
+          "email": "ritu@jaipurroyalfootwear.com"
+        }
+      ]
+    },
+    {
+      "id": "dealer-1010",
+      "name": "Kochi Marine Shoes",
+      "phone": "9846123456",
+      "email": "kochimarineshoes@gmail.com",
+      "location": "Kochi, Kerala",
+      "gstNumber": "32AAKMS1234J1Y4",
+      "panNumber": "AAKMS1234J",
+      "address": "89, Marine Drive, Ernakulam, Kochi",
+      "city": "Kochi",
+      "pincode": "682031",
+      "state": "Kerala",
+      "profilePhoto": "",
+      "analytics": { "orders": 93, "revenue": "₹ 37,25,000" },
+      "orderHistory": [
+        { "id": "ORD2001", "items": 6, "amount": "₹ 27,000" },
+        { "id": "ORD2002", "items": 4, "amount": "₹ 19,200" },
+        { "id": "ORD2003", "items": 8, "amount": "₹ 34,800" }
+      ],
+      "slabPricing": [
+        {
+          "product": "ELITE RUNNERS",
+          "discount": "15%",
+          "slab": "7+",
+          "amount": "₹ 1,26,000"
+        },
+        {
+          "product": "ADVENTURE HIKERS",
+          "discount": "12%",
+          "slab": "10+",
+          "amount": "₹ 2,50,000"
+        }
+      ],
+      "contacts": [
+        {
+          "name": "Ravi Menon",
+          "role": "Proprietor",
+          "phone": "9846123456",
+          "email": "ravi@kochimarineshoes.com"
+        },
+        {
+          "name": "Lakshmi Nair",
+          "role": "Operations Manager",
+          "phone": "9895432167",
+          "email": "lakshmi@kochimarineshoes.com"
+        }
+      ]
     }
   ]
 }
